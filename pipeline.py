@@ -4,8 +4,8 @@ import sqlite3
 import matplotlib.pyplot as plt
 
 # Download stock data
-ticker = "AAPL"
-df = yf.download(ticker, start="2024-01-01", end="2024-12-31")
+tickers = ["AAPL", "GOOGL", "MSFT"]
+df = yf.download(tickers, start="2024-01-01", end="2024-12-31")
 
 print(df.head(10))
 print(f"\nRows downloaded: {len(df)}")
