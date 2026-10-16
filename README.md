@@ -68,3 +68,6 @@ Apple's strong performance throughout 2024.
 - Expand to multiple tickers simultaneously
 - Add anomaly detection for unusual price movements
 - Calculate Sharpe ratio and maximum drawdown
+## Output
+
+![AAPL Moving Average Chart](chart.png)
